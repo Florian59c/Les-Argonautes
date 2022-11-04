@@ -1,0 +1,62 @@
+* {
+    /* faire en sorte que la bordure et le padding soient calculés a l interieur du conteneur -> on change le mode de calcul du conteneur */
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* enlever les marge par defaut du navigateur */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 4em;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.new-member-form {
+    margin: 2em 0 4em 0;
+    text-align: center;
+}
+
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 4em;
+    justify-content: center;
+}
+
+.member-item {
+    padding: 0.25em 0;
+    flex-basis: 33%;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+    background: #f76c6c;
+    padding: 0.25em 0;
+}
